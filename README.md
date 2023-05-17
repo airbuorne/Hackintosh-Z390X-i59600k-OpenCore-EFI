@@ -20,7 +20,7 @@
 ## Important stuff to bear in mind 🧠
 
 * in order to achieve Big Sur you need to install Catalina first then upgrade from the os itself, for some reason installing Big Sur directly didnt work for me
-* it is configured to use the iGPU only, if you have a graphics card that you would like to use please make the required changes, the "GPU_DISABLE SSDT" should be removed
+* it is configured to use the iGPU only, if you have a graphics card that you would like to use please make the required changes, the "GPU_DISABLE" SSDT should be removed
 * SMBIOS isnt fully configured, things such as the serial number and UUID need to be changed
 
 ## BIOS Settings 🛠 - Required for inatallation and to run the OS 
@@ -41,7 +41,7 @@
 ## Guide 🗡
 <img width="250" height="250" align="right" src="https://dortania.github.io/OpenCore-Install-Guide/dortania-logo-clear.png"/>
 <h3> This is the most important part which requires patience and dedication upon not succeding you can always search the internet, ask on reddit or easily HMU and i would be more than happy to help! 😊</h3>
-<h3> If you have the same specs you can skip the part of making the EFI folder and just use mine as well as the BIOS configuration BUT it if it doesnt work for some reason you'd need to build your own EFI afterall </h3>
+<h3> If you have the same specs you can skip the part of making the EFI folder and just use mine as well as the BIOS configuration BUT if it doesnt work for some reason you'd need to build your own EFI afterall </h3>
 <h3> If my EFI worked for you congrats! 🥳 you'd only need to Generate SMBIOS and sort the serial number stuff</h3>
 
 -  [Dortania's OpenCore installation Guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -58,7 +58,7 @@
 * Shutdown & Restart
 * Wifi and Bluetooth haven't tested yet beacause i need an adapter from mini pcie to pcie but im pretty sure an intel AC3160 would work, tested from previous hackintosh builds (kexts are included in the EFI)
 * icloud, imessage and facetime worked after configuing the SMBIOS and adding a valid serial number
-* Downloading apps from AppStore and apple-id work just fine 
+* Downloading apps from AppStore and Apple-id work just fine 
 
 <h3>Not Working</h3>
 
